@@ -52,4 +52,4 @@ jobs:
             docker pull sriverar03/api-basica
             docker stop api-basica || true
             docker rm api-basica || true
-            docker run -d --name api-basica -p 3000:3000 sriverar03/api-basica
+            docker run -d --name api-basica -p 3000:3000 sriverar03/api-basica1
